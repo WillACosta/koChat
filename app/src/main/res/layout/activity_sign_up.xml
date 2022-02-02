@@ -40,6 +40,7 @@
             android:layout_below="@id/edt_name"
             android:hint="Email"
             app:placeholderText="Your Email"
+            android:layout_marginTop="20dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -56,6 +57,7 @@
             android:layout_below="@id/edt_email"
             android:hint="Email"
             app:placeholderText="Your Email"
+            android:layout_marginTop="20dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -81,7 +83,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/btn_sign_up"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="0dp"
+            android:layout_marginTop="5dp"
             android:text="Login"
             style="@style/Widget.MaterialComponents.Button.TextButton"
     />
